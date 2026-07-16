@@ -5,18 +5,26 @@
 - 책(무료 웹판, ALPHA): https://grow.minds.kr/textbooks/css-methods/vol0/
 - 지은이: 안도현 (Ahn, Dohyun)
 
-## 설치 (10분)
+## 실행: 두 갈래
+
+### 갈래 1 · 설치 없이, 브라우저에서 (권장 시작점)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dataminds/css-methods-vol0-code/blob/main/colab_quickstart.ipynb)
+
+위 배지를 누르면 Google Colab(무료 ; 구글 계정 필요)에서 시작 노트북이 열립니다. 셀을 위에서부터 실행(▶ 또는 Shift+Enter)하면 설치 없이 책의 모든 모형을 돌릴 수 있습니다.
+
+### 갈래 2 · 내 컴퓨터에 설치 (10분)
 
 1. 파이썬 3.11 이상 설치 (python.org ; "Add Python to PATH" 체크)
 2. 이 저장소 내려받기: 우측 상단 Code → Download ZIP (또는 `git clone`)
-3. 터미널에서:
+3. 터미널(Windows: 시작 메뉴에서 PowerShell 검색 / macOS: 유틸리티 > 터미널)에서 압축 푼 폴더로 이동 후:
 
 ```bash
 pip install -r requirements.txt
 python -c "import mesa; print(mesa.__version__)"   # 3.3 이상이면 준비 끝
 ```
 
-막히면 오류 메시지를 통째로 생성 AI에게 붙여넣고 물어보세요. 표준 작업 절차입니다(책 1장).
+편집기는 아무거나 되지만 골라야 한다면 VS Code(무료)를 권합니다. 막히면 오류 메시지를 통째로 생성 AI에게 붙여넣고 물어보세요. 표준 작업 절차입니다(책 1장).
 
 ## 구성
 
