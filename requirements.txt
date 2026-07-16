@@ -1,0 +1,11 @@
+# 계산소통 실습 환경 (Python)
+# 설치: python -m venv .venv && (activate) && pip install -r requirements.txt
+mesa>=3.3
+networkx>=3.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+# 노트북·문서 (선택)
+jupyterlab
+# 통계·인과 (이전기 R 대응 참고 ; 인과추론과통계 Python 이전)
+statsmodels
